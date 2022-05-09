@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="library.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Monoton&family=Rubik+Glitch&family=Ultra&display=swap" rel="stylesheet">
+
+    <script defer src="book.js"></script>
+    <style>body {
+        background-image: url('game.jpg');
+        background-attachment: fixed;
+        background-size: cover;
+    } 
+        </style>
+    
+</head>
+<body>
+    <div id="titleheader">Add book to virtual library</div>
+
+    <div class="addbook">
+    <button id="open-button" class="a-btn" onclick="openForm()">Add Book</button></div>
+
+    <div class="form-popup" id="myForm" 
+    <form class="form-container">
+    <legend>Add Game</legend>
+
+    <label for="title"><b>Title</b></label>
+    <input type="text" id="title" placeholder="Enter Title" name="title" required>
+
+    <label for="author"><b>Company</b></label>
+    <input type="text" id="author" placeholder="Enter Author" name="author" required>
+
+    <label for="pages"><b>Level</b></label>
+    <input type="text" id="pages" placeholder="Enter Pages" name="pages" required>
+
+    <button id="submit" class="btn" onclick="addBookToLibrary()">Add</button>
+    <button id="button" class="btn " onclick="closeForm()">Close</button>
+  </form>
+  </div>
+</fieldset>
+
+
+    <div id="displaycard"></div>
+
+
+
+
+</body>
+</html>

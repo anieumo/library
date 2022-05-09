@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'Aldrich';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/aldrich/v17/MCoTzAn-1s3IGyJMVacY37H6D_A.woff2) format('woff2'); 
+}
+#titleheader {
+    vertical-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-family: 'Aldrich';
+    color:rgb(9, 25, 114);
+    font-size: 50px;
+}
+
+.open-button {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    text-align: center;
+}
+
+.form-popup {
+    display: flex;
+    justify-content: center;
+    width: 50vw; 
+    margin-left : 25vw;
+    border: 3px solid #0f1c92;
+    border-radius: 1em;
+    background-color: rgb(255, 255, 255, 0.4);
+    z-index: 9;
+}
+
+.form-popup legend {
+    font-size: 30px;
+    text-align: center;
+    color: #6d0344;
+    font-family: 'Aldrich';
+    margin: 50px;
+}
+.form-popup label {
+    color: #6b0845;
+    font-family: 'Aldrich';
+    margin-left: 50px;
+}
+
+
+.form-container {
+    width: 500px;
+    height: 1000px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.form-popup .btn {
+    background-color: rgb(199, 34, 158);
+    font-family: 'Aldrich';
+    color: white;
+    padding: 16px 20px;
+    margin: 0px 0px;
+    border: none;
+    cursor: pointer;
+    width: center 50%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+.a-btn {
+    background-color: rgb(199, 34, 158);
+    font-family: 'Aldrich';
+    color: white;
+    padding: 16px 200px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.6;
+}
+
+input[type=text] {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: center; 
+    color: #ffffff;
+    font-family: 'Aldrich';
+    width: 80%;
+    padding: 15px;
+    margin: 5px 0 22px 50px;
+    border: none;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+#search {
+    text-align: center;
+    font-size: 30px;
+}
+
+#add {
+    vertical-align: right;
+    margin: 10px;
+	float: right;
+	display: block;
+    border-radius: 1em;
+    border: 5px solid rgb(23, 45, 116);
+}
+
+#form {
+    max-width:300px;
+    min-width:250px;
+    padding:10px 50px;
+    border:2px solid gray;
+    border-radius:10px;
+    display: block;
+    text-align: center;
+}
+
+#displaycard {
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#theDiv {
+    color: #a70c6c;
+    font-family: 'Aldrich';
+    border-radius: 1em;
+    border: 5px solid rgb(23, 45, 116);
+    background: rgba(255, 255, 255, 0.3);
+    text-align: center;
+    font-size: large;
+    margin: 10px;
+    overflow-wrap: break-word;
+}
+
+.divtitle {
+    text-align: center;
+    font-size: 70px;
+    color:rgb(17, 26, 80);
+}
