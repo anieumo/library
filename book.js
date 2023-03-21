@@ -14,7 +14,7 @@ function Book(name, author, pages) {
         this.name = name
         this.author = author
         this.pages = pages
-        this.info = name + " by " + author
+        this.info = name + " by " + author + ", " + pages
 }
 //!! need to add read status document.querySelector('#accept').checked  will return false or true//
 
