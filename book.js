@@ -59,11 +59,11 @@ function display() {
         var checkbox = document.createElement('input');
         checkbox.id = 'check';
         checkbox.type = 'checkbox';
-        checkbox.textContent = 'read?';
+        checkbox.textContent = 'played?';
 
         var label = document.createElement('label')
-        label.htmlFor = 'read?';
-        label.appendChild(document.createTextNode('    read?'));
+        label.htmlFor = 'played?';
+        label.appendChild(document.createTextNode('    played?'));
         //!! need too check to see if its clicked/returns true or false, log as a global var and make a prototype of it// 
 
 
