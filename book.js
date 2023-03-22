@@ -5,9 +5,13 @@ function openForm() {
 function closeForm() {
     document.getElementById("myForm").style.display = "none";
 }
-
+if 
 
 let myLibrary = [];
+
+if (myLibrary.length == 0) {
+     document.getElementById("myForm").style.display = "none";
+}
 
 //constructor//
 function Book(name, author, pages) {
